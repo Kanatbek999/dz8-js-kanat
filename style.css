@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  
+}
+
+body {
+    align-items: center;
+    text-align: center;
+    background: #000066 ;
+   
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+   
+}
+
+li {
+    padding: 4px 8px;
+    position: relative;
+    top: 100px;
+    background: #d6c4f1;
+    box-shadow:0 0 15px 4px rgba(0,0,0,0.06) ;
+    margin: 10px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 25px 25px;
+    width: 900px;
+    left: 200px;
+    
+
+}
+
+#note__btn {
+    width: 75px;
+    height: 40px;
+    top: 50px;
+    color: #fff;
+    border-radius: 25px 25px;
+    padding: 10px 25px;
+
+    font-family: 'Lato', sans-serif;
+    font-weight: 500;
+    background: transparent;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    display: inline-block;
+    box-shadow:inset 2px 2px 2px 0px rgba(255,255,255,.5),
+    7px 7px 20px 0px rgba(0,0,0,.1),
+    4px 4px 5px 0px rgba(0,0,0,.1) ;
+    outline: none;
+}
+#note__btn {
+    background: rgb(33, 243, 6);
+    background: linear-gradient(0deg, rgb(81, 255, 0) 0%, rgb(5, 240, 17) 100%);
+    border: none;
+        
+}
+#note__btn::before  {
+    height: 0%;
+    width: 2px;
+      }
+#note__btn:hover  {
+    box-shadow:  4px 4px 6px 0 rgba(255,255,255,.5),
+                    -4px -4px 6px 0 rgba(116, 125, 136, .5), 
+    inset -4px -4px 6px 0 rgba(255,255,255,.2),
+    inset 4px 4px 6px 0 rgba(0, 0, 0, .4);
+}
+button {
+    width: 100px;
+    height: 40px;
+    top: 50px;
+    box-shadow:inset 2px 2px 2px 0px rgba(255,255,255,.5),
+    7px 7px 20px 0px rgba(0,0,0,.1),
+    4px 4px 5px 0px rgba(0,0,0,.1);
+    
+}
+button {
+    background: rgb(255, 0, 0);
+    background: linear-gradient(0deg, rgb(255, 0, 0) 0%, rgb(255, 0, 0) 100%) ;
+    border: none;
+    color: #fff;
+        
+}
+button::before  {
+    height: 0%;
+    width: 2px;
+      }
+button:hover  {
+    box-shadow:  4px 4px 6px 0 rgba(255,255,255,.5),
+                    -4px -4px 6px 0 rgba(116, 125, 136, .5), 
+    inset -4px -4px 6px 0 rgba(255,255,255,.2),
+    inset 4px 4px 6px 0 rgba(0, 0, 0, .4);
+}
+
+#note__input {
+    top: 50px;
+    position: relative;
+    width: 400px;
+    height: 40px;
+    border-radius: 25px 25px  ;
+    padding: 10px 10px;
+    border:0;
+    box-shadow:0 0 15px 4px rgba(0,0,0,0.06);
+}
